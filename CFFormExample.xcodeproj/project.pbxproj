@@ -3,25 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5741BD312F9F66536BFD74 /* Pods_CFFormExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6A602B392AF8755625C7AE /* Pods_CFFormExample.framework */; };
 		C19760F422DAF2DB0075B860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19760F322DAF2DB0075B860 /* AppDelegate.swift */; };
-		C19760F622DAF2DB0075B860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19760F522DAF2DB0075B860 /* ViewController.swift */; };
-		C19760F922DAF2DC0075B860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19760F722DAF2DC0075B860 /* Main.storyboard */; };
 		C19760FB22DAF2E30075B860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19760FA22DAF2E30075B860 /* Assets.xcassets */; };
 		C19760FE22DAF2E30075B860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19760FC22DAF2E30075B860 /* LaunchScreen.storyboard */; };
+		C197610922DAF97D0075B860 /* CFFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19760F522DAF2DB0075B860 /* CFFormController.swift */; };
+		C197610C22DAFA150075B860 /* CFForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197610B22DAFA150075B860 /* CFForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C19760F022DAF2DB0075B860 /* CFForm Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CFForm Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE00D04E7898DB85DC86E29 /* Pods-CFForm Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFForm Example.release.xcconfig"; path = "Target Support Files/Pods-CFForm Example/Pods-CFForm Example.release.xcconfig"; sourceTree = "<group>"; };
+		1E6A602B392AF8755625C7AE /* Pods_CFFormExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFFormExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA0080886D1ED04769A93AA /* Pods-CFFormExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFFormExample.release.xcconfig"; path = "Target Support Files/Pods-CFFormExample/Pods-CFFormExample.release.xcconfig"; sourceTree = "<group>"; };
+		72A041D47162E772A8702331 /* Pods-CFFormExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFFormExample.debug.xcconfig"; path = "Target Support Files/Pods-CFFormExample/Pods-CFFormExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C19760F022DAF2DB0075B860 /* CFFormExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFFormExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19760F322DAF2DB0075B860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C19760F522DAF2DB0075B860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C19760F822DAF2DC0075B860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C19760F522DAF2DB0075B860 /* CFFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFFormController.swift; sourceTree = "<group>"; };
 		C19760FA22DAF2E30075B860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C19760FD22DAF2E30075B860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C19760FF22DAF2E30075B860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C197610B22DAFA150075B860 /* CFForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFForm.swift; sourceTree = "<group>"; };
+		E12269875CB75EE00C79F45B /* Pods-CFForm Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFForm Example.debug.xcconfig"; path = "Target Support Files/Pods-CFForm Example/Pods-CFForm Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,59 +35,116 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5741BD312F9F66536BFD74 /* Pods_CFFormExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2494E473C74A668F447B8E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E6A602B392AF8755625C7AE /* Pods_CFFormExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FF4AAE3571A47111273287F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E12269875CB75EE00C79F45B /* Pods-CFForm Example.debug.xcconfig */,
+				1DE00D04E7898DB85DC86E29 /* Pods-CFForm Example.release.xcconfig */,
+				72A041D47162E772A8702331 /* Pods-CFFormExample.debug.xcconfig */,
+				2BA0080886D1ED04769A93AA /* Pods-CFFormExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C19760E722DAF2DB0075B860 = {
 			isa = PBXGroup;
 			children = (
-				C19760F222DAF2DB0075B860 /* CFForm Example */,
+				C19760F222DAF2DB0075B860 /* CFFormExample */,
 				C19760F122DAF2DB0075B860 /* Products */,
+				4FF4AAE3571A47111273287F /* Pods */,
+				2494E473C74A668F447B8E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C19760F122DAF2DB0075B860 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C19760F022DAF2DB0075B860 /* CFForm Example.app */,
+				C19760F022DAF2DB0075B860 /* CFFormExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C19760F222DAF2DB0075B860 /* CFForm Example */ = {
+		C19760F222DAF2DB0075B860 /* CFFormExample */ = {
 			isa = PBXGroup;
 			children = (
-				C19760F322DAF2DB0075B860 /* AppDelegate.swift */,
-				C19760F522DAF2DB0075B860 /* ViewController.swift */,
-				C19760F722DAF2DC0075B860 /* Main.storyboard */,
-				C19760FA22DAF2E30075B860 /* Assets.xcassets */,
-				C19760FC22DAF2E30075B860 /* LaunchScreen.storyboard */,
-				C19760FF22DAF2E30075B860 /* Info.plist */,
+				C197610722DAF5260075B860 /* Application */,
+				C197610622DAF51F0075B860 /* CFForm */,
+				C197610822DAF5330075B860 /* Resources */,
 			);
-			path = "CFForm Example";
+			path = CFFormExample;
+			sourceTree = "<group>";
+		};
+		C197610622DAF51F0075B860 /* CFForm */ = {
+			isa = PBXGroup;
+			children = (
+				C197610A22DAFA0A0075B860 /* Core */,
+				C19760F522DAF2DB0075B860 /* CFFormController.swift */,
+			);
+			path = CFForm;
+			sourceTree = "<group>";
+		};
+		C197610722DAF5260075B860 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C19760FF22DAF2E30075B860 /* Info.plist */,
+				C19760F322DAF2DB0075B860 /* AppDelegate.swift */,
+				C19760FC22DAF2E30075B860 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C197610822DAF5330075B860 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C19760FA22DAF2E30075B860 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C197610A22DAFA0A0075B860 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C197610B22DAFA150075B860 /* CFForm.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C19760EF22DAF2DB0075B860 /* CFForm Example */ = {
+		C19760EF22DAF2DB0075B860 /* CFFormExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C197610222DAF2E30075B860 /* Build configuration list for PBXNativeTarget "CFForm Example" */;
+			buildConfigurationList = C197610222DAF2E30075B860 /* Build configuration list for PBXNativeTarget "CFFormExample" */;
 			buildPhases = (
+				5339549E70F2056A7D5036C3 /* [CP] Check Pods Manifest.lock */,
+				C197610522DAF4F30075B860 /* Swift lint */,
 				C19760EC22DAF2DB0075B860 /* Sources */,
 				C19760ED22DAF2DB0075B860 /* Frameworks */,
 				C19760EE22DAF2DB0075B860 /* Resources */,
+				2C20DD4D9D6EDF672F52866F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CFForm Example";
+			name = CFFormExample;
 			productName = "CFForm Example";
-			productReference = C19760F022DAF2DB0075B860 /* CFForm Example.app */;
+			productReference = C19760F022DAF2DB0075B860 /* CFFormExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C19760EB22DAF2DB0075B860 /* Build configuration list for PBXProject "CFForm Example" */;
+			buildConfigurationList = C19760EB22DAF2DB0075B860 /* Build configuration list for PBXProject "CFFormExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C19760EF22DAF2DB0075B860 /* CFForm Example */,
+				C19760EF22DAF2DB0075B860 /* CFFormExample */,
 			);
 		};
 /* End PBXProject section */
@@ -124,18 +187,78 @@
 			files = (
 				C19760FE22DAF2E30075B860 /* LaunchScreen.storyboard in Resources */,
 				C19760FB22DAF2E30075B860 /* Assets.xcassets in Resources */,
-				C19760F922DAF2DC0075B860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C20DD4D9D6EDF672F52866F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CFFormExample/Pods-CFFormExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CFFormExample/Pods-CFFormExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CFFormExample/Pods-CFFormExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5339549E70F2056A7D5036C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CFFormExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C197610522DAF4F30075B860 /* Swift lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${SRCROOT}/Pods/SwiftLint/swiftlint\" >/dev/null; then\n${SRCROOT}/Pods/SwiftLint/swiftlint --config \"${SRCROOT}/.swiftlint.yml\"\nelse\necho \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\nexit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C19760EC22DAF2DB0075B860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19760F622DAF2DB0075B860 /* ViewController.swift in Sources */,
+				C197610922DAF97D0075B860 /* CFFormController.swift in Sources */,
+				C197610C22DAFA150075B860 /* CFForm.swift in Sources */,
 				C19760F422DAF2DB0075B860 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +266,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C19760F722DAF2DC0075B860 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C19760F822DAF2DC0075B860 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C19760FC22DAF2E30075B860 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,44 +395,48 @@
 		};
 		C197610322DAF2E30075B860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A041D47162E772A8702331 /* Pods-CFFormExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489RNAA8R2;
-				INFOPLIST_FILE = "CFForm Example/Info.plist";
+				INFOPLIST_FILE = CFFormExample/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.alexfilimon.cffrom-example.CFForm-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.alexfilimon.CFFormExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C197610422DAF2E30075B860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA0080886D1ED04769A93AA /* Pods-CFFormExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489RNAA8R2;
-				INFOPLIST_FILE = "CFForm Example/Info.plist";
+				INFOPLIST_FILE = CFFormExample/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.alexfilimon.cffrom-example.CFForm-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.alexfilimon.CFFormExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C19760EB22DAF2DB0075B860 /* Build configuration list for PBXProject "CFForm Example" */ = {
+		C19760EB22DAF2DB0075B860 /* Build configuration list for PBXProject "CFFormExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C197610022DAF2E30075B860 /* Debug */,
@@ -326,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C197610222DAF2E30075B860 /* Build configuration list for PBXNativeTarget "CFForm Example" */ = {
+		C197610222DAF2E30075B860 /* Build configuration list for PBXNativeTarget "CFFormExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C197610322DAF2E30075B860 /* Debug */,

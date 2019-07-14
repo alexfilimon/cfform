@@ -1,0 +1,55 @@
+PODS:
+  - Autolocalizable (0.1.0)
+  - PinLayout (1.8.8)
+  - ReactiveDataDisplayManager (3.2.0)
+  - SurfUtils/KeyboardPresentable (8.2.0)
+  - SurfUtils/StringAttributes (8.2.0)
+  - SurfUtils/VibrationFeedbackManager (8.2.0)
+  - SwiftLint (0.30.1)
+
+DEPENDENCIES:
+  - Autolocalizable (from `https://github.com/Virpik/Autolocalizable.git`, commit `01f87fb5021bd6dee2eb24d2447395549b26cd28`)
+  - PinLayout (~> 1.8.7)
+  - ReactiveDataDisplayManager (from `https://github.com/virpik/ReactiveDataDisplayManager`, commit `d1841f07447db4d5506a2e3dac1303134fe63dac`)
+  - SurfUtils/KeyboardPresentable (from `https://github.com/alexfilimon/iOS-Utils.git`, commit `ceb5055484366dd800fda1da08a9226b7c274bb7`)
+  - SurfUtils/StringAttributes (from `https://github.com/alexfilimon/iOS-Utils.git`, commit `ceb5055484366dd800fda1da08a9226b7c274bb7`)
+  - SurfUtils/VibrationFeedbackManager (from `https://github.com/alexfilimon/iOS-Utils.git`, commit `ceb5055484366dd800fda1da08a9226b7c274bb7`)
+  - SwiftLint (~> 0.30.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PinLayout
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  Autolocalizable:
+    :commit: 01f87fb5021bd6dee2eb24d2447395549b26cd28
+    :git: https://github.com/Virpik/Autolocalizable.git
+  ReactiveDataDisplayManager:
+    :commit: d1841f07447db4d5506a2e3dac1303134fe63dac
+    :git: https://github.com/virpik/ReactiveDataDisplayManager
+  SurfUtils:
+    :commit: ceb5055484366dd800fda1da08a9226b7c274bb7
+    :git: https://github.com/alexfilimon/iOS-Utils.git
+
+CHECKOUT OPTIONS:
+  Autolocalizable:
+    :commit: 01f87fb5021bd6dee2eb24d2447395549b26cd28
+    :git: https://github.com/Virpik/Autolocalizable.git
+  ReactiveDataDisplayManager:
+    :commit: d1841f07447db4d5506a2e3dac1303134fe63dac
+    :git: https://github.com/virpik/ReactiveDataDisplayManager
+  SurfUtils:
+    :commit: ceb5055484366dd800fda1da08a9226b7c274bb7
+    :git: https://github.com/alexfilimon/iOS-Utils.git
+
+SPEC CHECKSUMS:
+  Autolocalizable: 9b0048e43ed580395b15fa905d901f1a554fb721
+  PinLayout: ba08b162ae1cd7dd74cdfacbd1070f56bb2639f3
+  ReactiveDataDisplayManager: 6a4a7e51a765a547d087617a4da6058f2405ba0f
+  SurfUtils: 18e60ca0cbb5cf394abd6adfe2c6518b6aebb5ca
+  SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
+
+PODFILE CHECKSUM: 00f5ec13db385a86ba20fee9050ba96280dc74c3
+
+COCOAPODS: 1.7.4
