@@ -13,6 +13,17 @@
 		C19760FE22DAF2E30075B860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19760FC22DAF2E30075B860 /* LaunchScreen.storyboard */; };
 		C197610922DAF97D0075B860 /* CFFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19760F522DAF2DB0075B860 /* CFFormController.swift */; };
 		C197610C22DAFA150075B860 /* CFForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197610B22DAFA150075B860 /* CFForm.swift */; };
+		C197611022DB2BF30075B860 /* CFValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197610F22DB2BF30075B860 /* CFValidationError.swift */; };
+		C197611222DB2C570075B860 /* CFValidationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197611122DB2C570075B860 /* CFValidationPolicy.swift */; };
+		C197611422DCC82B0075B860 /* CFValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197611322DCC82B0075B860 /* CFValidationRule.swift */; };
+		C19BA07C22F6B94D004E2881 /* CFRangeValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA07B22F6B94D004E2881 /* CFRangeValidationRule.swift */; };
+		C19BA07E22F6BB98004E2881 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA07D22F6BB98004E2881 /* Result.swift */; };
+		C1BD743F22F0C55600194DC7 /* CFFormAbstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD743E22F0C55600194DC7 /* CFFormAbstract.swift */; };
+		C1E74BC722DCCDC8003D444B /* CFTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E74BC622DCCDC8003D444B /* CFTransformation.swift */; };
+		C1E74BC922DCCE3E003D444B /* CFFieldAbstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E74BC822DCCE3E003D444B /* CFFieldAbstract.swift */; };
+		C1E74BCB22DCCEA1003D444B /* CFSectionAbstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E74BCA22DCCEA1003D444B /* CFSectionAbstract.swift */; };
+		C1E74BCF22DCD19C003D444B /* BaseTableDataDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E74BCE22DCD19C003D444B /* BaseTableDataDisplayManager.swift */; };
+		C1E74BD122DCD2D6003D444B /* CFLoadableField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E74BD022DCD2D6003D444B /* CFLoadableField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +38,17 @@
 		C19760FD22DAF2E30075B860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C19760FF22DAF2E30075B860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C197610B22DAFA150075B860 /* CFForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFForm.swift; sourceTree = "<group>"; };
+		C197610F22DB2BF30075B860 /* CFValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFValidationError.swift; sourceTree = "<group>"; };
+		C197611122DB2C570075B860 /* CFValidationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFValidationPolicy.swift; sourceTree = "<group>"; };
+		C197611322DCC82B0075B860 /* CFValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFValidationRule.swift; sourceTree = "<group>"; };
+		C19BA07B22F6B94D004E2881 /* CFRangeValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRangeValidationRule.swift; sourceTree = "<group>"; };
+		C19BA07D22F6BB98004E2881 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C1BD743E22F0C55600194DC7 /* CFFormAbstract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFFormAbstract.swift; sourceTree = "<group>"; };
+		C1E74BC622DCCDC8003D444B /* CFTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFTransformation.swift; sourceTree = "<group>"; };
+		C1E74BC822DCCE3E003D444B /* CFFieldAbstract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFFieldAbstract.swift; sourceTree = "<group>"; };
+		C1E74BCA22DCCEA1003D444B /* CFSectionAbstract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFSectionAbstract.swift; sourceTree = "<group>"; };
+		C1E74BCE22DCD19C003D444B /* BaseTableDataDisplayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableDataDisplayManager.swift; sourceTree = "<group>"; };
+		C1E74BD022DCD2D6003D444B /* CFLoadableField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFLoadableField.swift; sourceTree = "<group>"; };
 		E12269875CB75EE00C79F45B /* Pods-CFForm Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFForm Example.debug.xcconfig"; path = "Target Support Files/Pods-CFForm Example/Pods-CFForm Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +104,7 @@
 		C19760F222DAF2DB0075B860 /* CFFormExample */ = {
 			isa = PBXGroup;
 			children = (
+				C1E74BCC22DCD182003D444B /* Library */,
 				C197610722DAF5260075B860 /* Application */,
 				C197610622DAF51F0075B860 /* CFForm */,
 				C197610822DAF5330075B860 /* Resources */,
@@ -92,6 +115,8 @@
 		C197610622DAF51F0075B860 /* CFForm */ = {
 			isa = PBXGroup;
 			children = (
+				C197611522DCCD6B0075B860 /* Rule */,
+				C197610E22DB2BE40075B860 /* Validation */,
 				C197610A22DAFA0A0075B860 /* Core */,
 				C19760F522DAF2DB0075B860 /* CFFormController.swift */,
 			);
@@ -119,9 +144,73 @@
 		C197610A22DAFA0A0075B860 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C1BD743D22F0C53D00194DC7 /* Protocols */,
 				C197610B22DAFA150075B860 /* CFForm.swift */,
+				C1E74BD022DCD2D6003D444B /* CFLoadableField.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		C197610E22DB2BE40075B860 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA07A22F6B911004E2881 /* Core */,
+				C19BA07922F6B90A004E2881 /* Predefined */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		C197611522DCCD6B0075B860 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				C1E74BC622DCCDC8003D444B /* CFTransformation.swift */,
+			);
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		C19BA07922F6B90A004E2881 /* Predefined */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA07B22F6B94D004E2881 /* CFRangeValidationRule.swift */,
+			);
+			path = Predefined;
+			sourceTree = "<group>";
+		};
+		C19BA07A22F6B911004E2881 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C197610F22DB2BF30075B860 /* CFValidationError.swift */,
+				C197611122DB2C570075B860 /* CFValidationPolicy.swift */,
+				C197611322DCC82B0075B860 /* CFValidationRule.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C1BD743D22F0C53D00194DC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C1E74BC822DCCE3E003D444B /* CFFieldAbstract.swift */,
+				C1E74BCA22DCCEA1003D444B /* CFSectionAbstract.swift */,
+				C1BD743E22F0C55600194DC7 /* CFFormAbstract.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C1E74BCC22DCD182003D444B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C1E74BCD22DCD189003D444B /* Extension */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C1E74BCD22DCD189003D444B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1E74BCE22DCD19C003D444B /* BaseTableDataDisplayManager.swift */,
+				C19BA07D22F6BB98004E2881 /* Result.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +346,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BD743F22F0C55600194DC7 /* CFFormAbstract.swift in Sources */,
+				C19BA07C22F6B94D004E2881 /* CFRangeValidationRule.swift in Sources */,
+				C1E74BD122DCD2D6003D444B /* CFLoadableField.swift in Sources */,
+				C197611222DB2C570075B860 /* CFValidationPolicy.swift in Sources */,
+				C19BA07E22F6BB98004E2881 /* Result.swift in Sources */,
+				C1E74BC922DCCE3E003D444B /* CFFieldAbstract.swift in Sources */,
+				C1E74BCF22DCD19C003D444B /* BaseTableDataDisplayManager.swift in Sources */,
+				C1E74BC722DCCDC8003D444B /* CFTransformation.swift in Sources */,
+				C197611422DCC82B0075B860 /* CFValidationRule.swift in Sources */,
+				C197611022DB2BF30075B860 /* CFValidationError.swift in Sources */,
 				C197610922DAF97D0075B860 /* CFFormController.swift in Sources */,
 				C197610C22DAFA150075B860 /* CFForm.swift in Sources */,
+				C1E74BCB22DCCEA1003D444B /* CFSectionAbstract.swift in Sources */,
 				C19760F422DAF2DB0075B860 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
