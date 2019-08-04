@@ -6,7 +6,7 @@
 //  Copyright © 2019 Александр Филимонов. All rights reserved.
 //
 
-import Foundation
+import ReactiveDataDisplayManager
 
 extension BaseTableDataDisplayManager {
 

@@ -18,6 +18,21 @@
 		C197611422DCC82B0075B860 /* CFValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197611322DCC82B0075B860 /* CFValidationRule.swift */; };
 		C19BA07C22F6B94D004E2881 /* CFRangeValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA07B22F6B94D004E2881 /* CFRangeValidationRule.swift */; };
 		C19BA07E22F6BB98004E2881 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA07D22F6BB98004E2881 /* Result.swift */; };
+		C19BA08122F6C7ED004E2881 /* CFSectionHeaderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA08022F6C7ED004E2881 /* CFSectionHeaderType.swift */; };
+		C19BA08322F6C838004E2881 /* RDDMHeaderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA08222F6C838004E2881 /* RDDMHeaderType.swift */; };
+		C19BA08522F6C878004E2881 /* CFSeparatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA08422F6C878004E2881 /* CFSeparatorStyle.swift */; };
+		C19BA08722F6C8AE004E2881 /* CFSectionHeaderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA08622F6C8AE004E2881 /* CFSectionHeaderStyle.swift */; };
+		C19BA08922F717FE004E2881 /* CFConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA08822F717FE004E2881 /* CFConstants.swift */; };
+		C19BA08B22F718D4004E2881 /* CFSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA08A22F718D4004E2881 /* CFSection.swift */; };
+		C19BA09222F71ED2004E2881 /* PlainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA09122F71ED2004E2881 /* PlainHeaderView.swift */; };
+		C19BA09422F71EE1004E2881 /* PlainHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19BA09322F71EE1004E2881 /* PlainHeaderView.xib */; };
+		C19BA09622F71F2B004E2881 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA09522F71F2B004E2881 /* UIView.swift */; };
+		C19BA09922F72242004E2881 /* PlainHeaderGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA09822F72242004E2881 /* PlainHeaderGenerator.swift */; };
+		C19BA09B22F72381004E2881 /* PlainTitleCellGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA09A22F72381004E2881 /* PlainTitleCellGenerator.swift */; };
+		C19BA0A122F7240A004E2881 /* EstimateHeightTableCellGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA0A022F7240A004E2881 /* EstimateHeightTableCellGenerator.swift */; };
+		C19BA0A822F724B3004E2881 /* PlainTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA0A622F724B3004E2881 /* PlainTitleCell.swift */; };
+		C19BA0A922F724B3004E2881 /* PlainTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19BA0A722F724B3004E2881 /* PlainTitleCell.xib */; };
+		C19BA0AB22F726E7004E2881 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19BA0AA22F726E7004E2881 /* Closures.swift */; };
 		C1BD743F22F0C55600194DC7 /* CFFormAbstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD743E22F0C55600194DC7 /* CFFormAbstract.swift */; };
 		C1E74BC722DCCDC8003D444B /* CFTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E74BC622DCCDC8003D444B /* CFTransformation.swift */; };
 		C1E74BC922DCCE3E003D444B /* CFFieldAbstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E74BC822DCCE3E003D444B /* CFFieldAbstract.swift */; };
@@ -43,6 +58,21 @@
 		C197611322DCC82B0075B860 /* CFValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFValidationRule.swift; sourceTree = "<group>"; };
 		C19BA07B22F6B94D004E2881 /* CFRangeValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRangeValidationRule.swift; sourceTree = "<group>"; };
 		C19BA07D22F6BB98004E2881 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C19BA08022F6C7ED004E2881 /* CFSectionHeaderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFSectionHeaderType.swift; sourceTree = "<group>"; };
+		C19BA08222F6C838004E2881 /* RDDMHeaderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDDMHeaderType.swift; sourceTree = "<group>"; };
+		C19BA08422F6C878004E2881 /* CFSeparatorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFSeparatorStyle.swift; sourceTree = "<group>"; };
+		C19BA08622F6C8AE004E2881 /* CFSectionHeaderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFSectionHeaderStyle.swift; sourceTree = "<group>"; };
+		C19BA08822F717FE004E2881 /* CFConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFConstants.swift; sourceTree = "<group>"; };
+		C19BA08A22F718D4004E2881 /* CFSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFSection.swift; sourceTree = "<group>"; };
+		C19BA09122F71ED2004E2881 /* PlainHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainHeaderView.swift; sourceTree = "<group>"; };
+		C19BA09322F71EE1004E2881 /* PlainHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlainHeaderView.xib; sourceTree = "<group>"; };
+		C19BA09522F71F2B004E2881 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		C19BA09822F72242004E2881 /* PlainHeaderGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainHeaderGenerator.swift; sourceTree = "<group>"; };
+		C19BA09A22F72381004E2881 /* PlainTitleCellGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTitleCellGenerator.swift; sourceTree = "<group>"; };
+		C19BA0A022F7240A004E2881 /* EstimateHeightTableCellGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateHeightTableCellGenerator.swift; sourceTree = "<group>"; };
+		C19BA0A622F724B3004E2881 /* PlainTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainTitleCell.swift; sourceTree = "<group>"; };
+		C19BA0A722F724B3004E2881 /* PlainTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlainTitleCell.xib; sourceTree = "<group>"; };
+		C19BA0AA22F726E7004E2881 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		C1BD743E22F0C55600194DC7 /* CFFormAbstract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFFormAbstract.swift; sourceTree = "<group>"; };
 		C1E74BC622DCCDC8003D444B /* CFTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFTransformation.swift; sourceTree = "<group>"; };
 		C1E74BC822DCCE3E003D444B /* CFFieldAbstract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFFieldAbstract.swift; sourceTree = "<group>"; };
@@ -144,9 +174,9 @@
 		C197610A22DAFA0A0075B860 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C1BD743D22F0C53D00194DC7 /* Protocols */,
-				C197610B22DAFA150075B860 /* CFForm.swift */,
-				C1E74BD022DCD2D6003D444B /* CFLoadableField.swift */,
+				C19BA08E22F718E4004E2881 /* Field */,
+				C19BA08D22F718DF004E2881 /* Section */,
+				C19BA08C22F718DB004E2881 /* Form */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -186,20 +216,114 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		C1BD743D22F0C53D00194DC7 /* Protocols */ = {
+		C19BA07F22F6C7E1004E2881 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA08022F6C7ED004E2881 /* CFSectionHeaderType.swift */,
+				C19BA08222F6C838004E2881 /* RDDMHeaderType.swift */,
+				C19BA08422F6C878004E2881 /* CFSeparatorStyle.swift */,
+				C19BA08622F6C8AE004E2881 /* CFSectionHeaderStyle.swift */,
+				C19BA0AA22F726E7004E2881 /* Closures.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		C19BA08C22F718DB004E2881 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD743E22F0C55600194DC7 /* CFFormAbstract.swift */,
+				C197610B22DAFA150075B860 /* CFForm.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		C19BA08D22F718DF004E2881 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				C1E74BCA22DCCEA1003D444B /* CFSectionAbstract.swift */,
+				C19BA08A22F718D4004E2881 /* CFSection.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		C19BA08E22F718E4004E2881 /* Field */ = {
 			isa = PBXGroup;
 			children = (
 				C1E74BC822DCCE3E003D444B /* CFFieldAbstract.swift */,
-				C1E74BCA22DCCEA1003D444B /* CFSectionAbstract.swift */,
-				C1BD743E22F0C55600194DC7 /* CFFormAbstract.swift */,
+				C1E74BD022DCD2D6003D444B /* CFLoadableField.swift */,
 			);
-			path = Protocols;
+			path = Field;
+			sourceTree = "<group>";
+		};
+		C19BA08F22F71EAF004E2881 /* ReusableLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA0A222F7243A004E2881 /* Cells */,
+				C19BA09722F72233004E2881 /* Generators */,
+				C19BA09022F71EB7004E2881 /* Views */,
+			);
+			path = ReusableLayer;
+			sourceTree = "<group>";
+		};
+		C19BA09022F71EB7004E2881 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA09122F71ED2004E2881 /* PlainHeaderView.swift */,
+				C19BA09322F71EE1004E2881 /* PlainHeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C19BA09722F72233004E2881 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA09822F72242004E2881 /* PlainHeaderGenerator.swift */,
+				C19BA09A22F72381004E2881 /* PlainTitleCellGenerator.swift */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		C19BA09E22F723F9004E2881 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA09F22F72401004E2881 /* RDDM */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C19BA09F22F72401004E2881 /* RDDM */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA0A022F7240A004E2881 /* EstimateHeightTableCellGenerator.swift */,
+			);
+			path = RDDM;
+			sourceTree = "<group>";
+		};
+		C19BA0A222F7243A004E2881 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA0A322F72443004E2881 /* PlainTitleCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C19BA0A322F72443004E2881 /* PlainTitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				C19BA0A622F724B3004E2881 /* PlainTitleCell.swift */,
+				C19BA0A722F724B3004E2881 /* PlainTitleCell.xib */,
+			);
+			path = PlainTitleCell;
 			sourceTree = "<group>";
 		};
 		C1E74BCC22DCD182003D444B /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				C19BA09E22F723F9004E2881 /* ThirdParty */,
+				C19BA08F22F71EAF004E2881 /* ReusableLayer */,
+				C19BA07F22F6C7E1004E2881 /* Types */,
 				C1E74BCD22DCD189003D444B /* Extension */,
+				C19BA08822F717FE004E2881 /* CFConstants.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -209,6 +333,7 @@
 			children = (
 				C1E74BCE22DCD19C003D444B /* BaseTableDataDisplayManager.swift */,
 				C19BA07D22F6BB98004E2881 /* Result.swift */,
+				C19BA09522F71F2B004E2881 /* UIView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -275,6 +400,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C19760FE22DAF2E30075B860 /* LaunchScreen.storyboard in Resources */,
+				C19BA0A922F724B3004E2881 /* PlainTitleCell.xib in Resources */,
+				C19BA09422F71EE1004E2881 /* PlainHeaderView.xib in Resources */,
 				C19760FB22DAF2E30075B860 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,16 +474,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1BD743F22F0C55600194DC7 /* CFFormAbstract.swift in Sources */,
+				C19BA08322F6C838004E2881 /* RDDMHeaderType.swift in Sources */,
+				C19BA09922F72242004E2881 /* PlainHeaderGenerator.swift in Sources */,
+				C19BA0A822F724B3004E2881 /* PlainTitleCell.swift in Sources */,
+				C19BA09622F71F2B004E2881 /* UIView.swift in Sources */,
 				C19BA07C22F6B94D004E2881 /* CFRangeValidationRule.swift in Sources */,
 				C1E74BD122DCD2D6003D444B /* CFLoadableField.swift in Sources */,
 				C197611222DB2C570075B860 /* CFValidationPolicy.swift in Sources */,
+				C19BA08722F6C8AE004E2881 /* CFSectionHeaderStyle.swift in Sources */,
 				C19BA07E22F6BB98004E2881 /* Result.swift in Sources */,
+				C19BA08922F717FE004E2881 /* CFConstants.swift in Sources */,
+				C19BA0AB22F726E7004E2881 /* Closures.swift in Sources */,
+				C19BA08B22F718D4004E2881 /* CFSection.swift in Sources */,
 				C1E74BC922DCCE3E003D444B /* CFFieldAbstract.swift in Sources */,
 				C1E74BCF22DCD19C003D444B /* BaseTableDataDisplayManager.swift in Sources */,
+				C19BA09B22F72381004E2881 /* PlainTitleCellGenerator.swift in Sources */,
 				C1E74BC722DCCDC8003D444B /* CFTransformation.swift in Sources */,
+				C19BA09222F71ED2004E2881 /* PlainHeaderView.swift in Sources */,
 				C197611422DCC82B0075B860 /* CFValidationRule.swift in Sources */,
+				C19BA08122F6C7ED004E2881 /* CFSectionHeaderType.swift in Sources */,
 				C197611022DB2BF30075B860 /* CFValidationError.swift in Sources */,
+				C19BA0A122F7240A004E2881 /* EstimateHeightTableCellGenerator.swift in Sources */,
 				C197610922DAF97D0075B860 /* CFFormController.swift in Sources */,
+				C19BA08522F6C878004E2881 /* CFSeparatorStyle.swift in Sources */,
 				C197610C22DAFA150075B860 /* CFForm.swift in Sources */,
 				C1E74BCB22DCCEA1003D444B /* CFSectionAbstract.swift in Sources */,
 				C19760F422DAF2DB0075B860 /* AppDelegate.swift in Sources */,

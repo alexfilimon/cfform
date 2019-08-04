@@ -22,10 +22,15 @@ public protocol CFFormAbstract: class {
     var validationPolicy: CFValidationPolicy { get set }
     func validate() -> [Error]
 
-    // Base methods
+    // Base
 
     func display(in adapter: BaseTableDataDisplayManager)
     func add(section: CFSectionAbstract)
     func add(sections: [CFSectionAbstract])
+    var adapter: BaseTableDataDisplayManager? { get }
+
+    // Style properties
+
+    var separatorStyle: CFSeparatorStyle { get set }
 
 }
